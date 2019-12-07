@@ -14,7 +14,7 @@ def nyc_pigeon_organizer(data)
    }
 data[:color].each { |color,values|
 values.each { |i|
-
+result[i][:color] << color
 binding.pry
 
  }
