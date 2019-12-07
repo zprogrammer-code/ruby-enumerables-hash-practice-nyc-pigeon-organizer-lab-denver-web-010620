@@ -8,12 +8,11 @@ v.each { |a,b|
 if !result[i]
 result[i] = data[i]
 result[i] = {}
-
+binding.pry
 end
  }
 }
 }
-binding.pry
 return result
 end
  
