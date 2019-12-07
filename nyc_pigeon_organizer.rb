@@ -16,10 +16,10 @@ data[:color].each { |color,values|
 values.each { |i|
 
 binding.pry
-end
+
  }
 }
-}
+
 return result
 end
  
