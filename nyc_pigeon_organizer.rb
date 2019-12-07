@@ -2,6 +2,17 @@ require 'pry'
 def nyc_pigeon_organizer(data)
  
  result = {}
+ data[:gender].each{
+   |key,array| 
+   array.each{ |name|
+    result[name] = {
+      :color => [],
+      :gender => [key.to_s],
+      :lives => []
+    }
+   }
+   }
+   binding.pry
 data.each { |k,v,|
 v.each { |a,b|
   b.each { |i|
