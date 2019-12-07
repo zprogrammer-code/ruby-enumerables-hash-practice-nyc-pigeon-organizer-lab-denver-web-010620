@@ -22,7 +22,6 @@ places.each { |i|
 result[i][:lives] << lives.to_s
 }
 }
-binding.pry
 return result
 end
  
