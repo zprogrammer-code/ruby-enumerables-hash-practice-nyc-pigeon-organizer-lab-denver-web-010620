@@ -12,14 +12,10 @@ def nyc_pigeon_organizer(data)
     }
    }
    }
-   binding.pry
-data.each { |k,v,|
-v.each { |a,b|
-  b.each { |i|
-if !result[i]
-result[i] = data[i]
-result[i] = {}
+data[:color].each { |color,values|
+values.each { |i|
 
+binding.pry
 end
  }
 }
